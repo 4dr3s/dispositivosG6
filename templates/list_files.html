@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Archivos</title>
+</head>
+<body>
+    <h1>Lista de Archivos</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre del Archivo</th>
+                <th>Tamaño</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for file in files %}
+            <tr>
+                <td>{{ file.name }}</td>
+                <td>{{ file.size }} bytes</td>
+                <td><a href="/download/{{ file.name }}">Descargar</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
