@@ -1,2 +1,2 @@
-# dispositivosG6
+# IAAS y CDN
 Uso de Vultr y BackBlaze
