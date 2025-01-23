@@ -7,6 +7,7 @@ Este repositorio contiene los pasos para configurar una infraestructura de IA y 
 ### 1. Crear una cuenta en Vultr y BackBlaze
 1.1 En **Vultr**, es necesario registrar una tarjeta de crédito para un consumo mínimo de $2.5. Al ser un nuevo usuario, recibirás automáticamente $300 gratuitos para usar durante el primer mes.  
 1.2 En **BackBlaze**, solo necesitas crear la cuenta sin necesidad de registrar tarjeta, y podrás empezar a usar el servicio de inmediato.
+1.3 En el proyecto de python se debe crear el archivo **.env** y configurar las variables de entorno **ACCOUNT_ID, APPLICATION_KEY, BUCKET_NAME**
 
 ### 2. Crear la máquina virtual (MV)
 2.1 Crea la máquina virtual según las necesidades del proyecto. Si deseas usar IA, se recomienda seleccionar un servicio con GPU e Inferencia en Vultr. Si el proyecto es pequeño, puedes elegir el plan gratuito con 0.5 RM, que es suficiente para este caso.  
